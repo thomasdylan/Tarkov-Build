@@ -1,0 +1,42 @@
+.create-wrapper {
+    background-image: url(../Images/ico-websites-background-placeholder-image.jpg);
+    background-color: #080400;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.create-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+    color: $light-color;
+    margin-bottom: 4rem;
+}
+
+.create-landing {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 11rem;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+    line-height: .75;
+    opacity: 1;
+
+    p {
+        color: #9a8866;
+    }
+
+    .create-landing-left {
+        margin: 1rem;
+        color: $light-color;
+        text-align: left;
+    }
+
+    .create-landing-right {
+        margin-right: 12rem;
+    }
+}

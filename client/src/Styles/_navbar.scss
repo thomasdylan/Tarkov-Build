@@ -1,0 +1,27 @@
+.navbar {
+    background-color: $dark-color;
+    color: $light-color;
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 1rem;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        li {
+            padding: 15px;
+        }
+
+        a:hover {
+            color: $secondary-color;
+        }
+    }
+}
