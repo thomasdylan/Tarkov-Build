@@ -11,11 +11,11 @@ export default function CreateModal() {
 
             <div className="modal fade bd-example-modal-xl" id="gunModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-xl" role="document">
-                    <div className="modal-content">
+                    <div className="modal-content bg-dark">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Select A Gun</h5>
+                            <h5 className="modal-title text-white" id="exampleModalLabel">Select A Gun</h5>
                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
+                                <span className="text-white" aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div className="modal-body">
@@ -24,7 +24,7 @@ export default function CreateModal() {
                             <div className="container">
 
                                 <div id="assaultCarbines">
-                                    <button className="btn btn-block btn-secondary dropdown-toggle assaultCarbinesRow" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button className="btn btn-block btn-dark dropdown-toggle assaultCarbinesRow" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Assault Carbines
                                     </button>
                                     <hr />
@@ -40,7 +40,7 @@ export default function CreateModal() {
                                 </div>
 
                                 <div id="assaultRifles">
-                                    <button className="btn btn-block btn-secondary dropdown-toggle assaultRiflesRow" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button className="btn btn-block btn-dark dropdown-toggle assaultRiflesRow" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Assault Rifles
                                     </button>
                                     <hr />
@@ -73,7 +73,7 @@ export default function CreateModal() {
                                 </div>
 
                                 <div id="boltActionRifles">
-                                    <button className="btn btn-block btn-secondary dropdown-toggle boltActionRiflesRow" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button className="btn btn-block btn-dark dropdown-toggle boltActionRiflesRow" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Bolt-action Rifles
                                     </button>
                                     <hr />
@@ -89,7 +89,7 @@ export default function CreateModal() {
                                 </div>
 
                                 <div id="machineGuns">
-                                    <button className="btn btn-block btn-secondary dropdown-toggle machineGunsRow" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button className="btn btn-block btn-dark dropdown-toggle machineGunsRow" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Machine Guns
                                     </button>
                                     <hr />
@@ -99,7 +99,7 @@ export default function CreateModal() {
                                 </div>
 
                                 <div id="marksmanRifles">
-                                    <button className="btn btn-block btn-secondary dropdown-toggle marskmanRiflesRow" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button className="btn btn-block btn-dark dropdown-toggle marskmanRiflesRow" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Marksman Rifles
                                     </button>
                                     <hr />
@@ -113,27 +113,53 @@ export default function CreateModal() {
                                 </div>
 
                                 <div id="pistols">
-                                    <button className="btn btn-block btn-secondary dropdown-toggle pistolRow" type="button" id="dropdownMenu6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button className="btn btn-block btn-dark dropdown-toggle pistolRow" type="button" id="dropdownMenu6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Pistols
                                     </button>
                                     <hr />
                                     <div className="dropdown-menu" aria-labelledby="dropdownMenu6">
-                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="" /> </li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/c/cc/Sr1mp.png/320px-Sr1mp.png?version=ff0470ec8c47e53a826304b4d58e06e3" /> 9x21 Serdyukov Automatic Pistol SR1MP Gyurza</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/8/86/EFT_UpcomingM9A3.png/320px-EFT_UpcomingM9A3.png?version=5350cda8179efc2429d53045e771b220" /> Beretta M9A3 9x19 Pistol</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/d/de/Five-seveN.gif/320px-Five-seveN.gif?version=d464c1e71dd5b92b3e407743a330215b" /> FN Five-seveN MK2 5.7x28 Pistol</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/d/de/Five-seveN.gif/320px-Five-seveN.gif?version=d464c1e71dd5b92b3e407743a330215b" /> FN Five-seveN MK2 FDE Frame 5.7x28 pistol</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/5/54/Glock17.png/320px-Glock17.png?version=89c9c2c1ad33d7424cfafeef3ccde117" /> GLOCK 17 9x19 Pistol</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/8/81/Glock18CImage.png/320px-Glock18CImage.png?version=cafa939abb658264f89bcd4961c8f6a6" /> GLOCK 18C 9x19 Pistol</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/c/c6/P226.png/320px-P226.png?version=71787210d2a242f9152005552232a0dc" /> P226R 9x19 Pistol</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/c/c4/Pb.png/320px-Pb.png?version=f117c1425b687c51dacc3a54e60cef3f" /> PB 9x18PM Silenced Pistol</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/c/c7/Makarovt.png/320px-Makarovt.png?version=f8bc09e59f7e324c714c0b6059fa0c9b" /> PM (t) 9x18PM Pistol</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/4/4c/Makarov.png/320px-Makarov.png?version=8b545bc5e6eefa6e11e1314e4c75748d" /> PM 9x18PM Pistol</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/b/ba/APBImage.png/320px-APBImage.png?version=52149d718c59605a5483344f6c1ddf97" /> Silenced Stechkin Automatic Pistol 9x18PM</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/8/81/Stechkin_Automatic_Pistol_9x18PM.png/320px-Stechkin_Automatic_Pistol_9x18PM.png?version=453199358a49baf6d1f167c91156cbe7" /> Stechkin Automatic Pistol 9x18PM</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/1/1b/Tt.png/320px-Tt.png?version=4b119831b3456f5b1dc8a364b3e65e81" /> TT Pistol 7.62x25 TT</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/4/46/TT_Pistol_7.62x25_TT_gold_2.png/320px-TT_Pistol_7.62x25_TT_gold_2.png?version=6f1aff316404633932d3765758f271a7" /> TT Pistol 7.62x25 TT Gold</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/0/0b/Grach.png/320px-Grach.png?version=511231a0292a8f935c5758a96acf32e9" /> Yarygin MP-443 Grach 9x19 Pistol</li>
                                     </div>
                                 </div>
 
                                 <div id="smgs">
-                                    <button className="btn btn-block btn-secondary dropdown-toggle smgsRow" type="button" id="dropdownMenu7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button className="btn btn-block btn-dark dropdown-toggle smgsRow" type="button" id="dropdownMenu7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         SMGs
                                     </button>
                                     <hr />
                                     <div className="dropdown-menu" aria-labelledby="dropdownMenu7">
-                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="" /> </li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/0/0e/MP9_View.png/320px-MP9_View.png?version=ad7d7aacd310b335d590d6ea540e0bb7" /> B&T MP9 9x19 Submachinegun</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/f/fd/B%26T_MP9-N_9x19_Submachinegun.png/320px-B%26T_MP9-N_9x19_Submachinegun.png?version=0fecd20e0a2a9963c60d688a0e24266a" /> B&T MP9-N 9x19 Submachinegun</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/6/6c/P90Image.png/320px-P90Image.png?version=544e3765a9a65be84ded3c523751c759" /> FN P90 5.7x28 Submachinegun</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/5/54/Mp5.png/320px-Mp5.png?version=431a1b87f89b89ffd6a37de352991eee" /> HK MP5 9x19 Submachinegun (Navy 3 Round Burst)</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/4/45/HK_MP5K-N.png/320px-HK_MP5K-N.png?version=b3eb7010023a30967838d5abfa5b9f5f" /> HK MP5 Kurz 9x19 Submachinegun</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/0/02/HKMP7A1Image.png/320px-HKMP7A1Image.png?version=accb95893b9f23336a19c40f4df212da" /> HK MP7A1 4.6x30 Submachinegun</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/5/52/HKMP7A2Image.png/320px-HKMP7A2Image.png?version=c6cd69734711a2f9a6f16a6c5231e2eb" /> HK MP7A2 4.6x30 Submachinegun</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/4/48/Klin.png/320px-Klin.png?version=0d29d69de2166abd209a2a15f3c99e35" /> PP-9 Klin 9x18PMM SMG</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/b/ba/Kedr.png/320px-Kedr.png?version=035a7e67966b7796e6aa0172e5d85c9c" /> PP-91 Kedr 9x18PM SMG</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/a/a4/Kedrb.png/320px-Kedrb.png?version=b93c643f3e382c5c5c965b7173c798d3" /> PP-91-01 Kedr-B 9x18PM SMG</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/f/f7/Mpx.png/320px-Mpx.png?version=4b04068e7180bda3c23568402a0e4bef" /> SIG MPX 9x19 Submachine Gun</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/7/70/Saiga9.png/320px-Saiga9.png?version=d93c5bc4d77e3a214175f43563b0045e" /> Saiga-9 9x19 Carbine</li>
+                                        <li className="dropdown-item gun-dropdown"><img className="itemImage" src="https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/thumb/f/fb/Pp19.png/320px-Pp19.png?version=b5e228e4f153302dbce222f2be174a2c" /> Submachinegun 19-01 Vityaz-SN 9x19</li>
                                     </div>
                                 </div>
 
                                 <div id="shotguns">
-                                    <button className="btn btn-block btn-secondary dropdown-toggle shotgunsRow" type="button" id="dropdownMenu8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button className="btn btn-block btn-dark dropdown-toggle shotgunsRow" type="button" id="dropdownMenu8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Shotguns
                                     </button>
                                     <hr />
