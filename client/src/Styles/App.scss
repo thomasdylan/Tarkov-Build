@@ -42,10 +42,6 @@
   }
 }
 
-img {
-  width: 100%;
-}
-
 a {
   text-decoration: none;
   color: $light-color;
@@ -56,4 +52,13 @@ a {
   padding: 0 30px;
   margin: 0 auto;
   overflow: auto;
+}
+
+.itemImage {
+  width: auto;
+  height: auto;
+}
+
+.gun-dropdown {
+  max-width: 400px;
 }

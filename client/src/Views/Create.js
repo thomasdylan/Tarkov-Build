@@ -25,10 +25,6 @@ export default function Create() {
                 </div>
             </div>
             <div>
-                <button className="create-button">Start</button>
-            </div>
-            <br /><br /><br /><br /><br /><br /><br /><br />
-            <div>
                 <Building />
             </div>
         </div>

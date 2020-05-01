@@ -3,17 +3,31 @@ const path = require("path");
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-// Serve up static assets (usually on heroku)
+require('dotenv').config();
+
+const db = require('./config/database');
+
+db.authenticate()
+  .then(() => {
+    console.log('Connection has been established successfully.');
+  })
+  .catch(err => {
+    console.error('Unable to connect to the database:', err);
+  });
+
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-// Send every request to the React app
-// Define any API routes before this runs
 app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-app.listen(PORT, function() {
-  console.log(`🌎 ==> API server now on port ${PORT}!`);
+//DB Routes
+app.use('/builds', require('./routes/builds'));
+
+db.sync().then(function() {
+    app.listen(PORT, function() {
+    console.log(`🌎 ==> API server now on port ${PORT}!`);
+    });
 });
