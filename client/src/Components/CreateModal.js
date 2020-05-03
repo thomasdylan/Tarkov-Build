@@ -9,11 +9,11 @@ export default function CreateModal() {
                 Select A Gun
             </button>
 
-            <div className="modal fade bd-example-modal-xl" id="gunModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal fade bd-example-modal-xl" id="gunModal" tabindex="-1" role="dialog" aria-labelledby="weaponModal" aria-hidden="true">
                 <div className="modal-dialog modal-xl" role="document">
                     <div className="modal-content bg-dark">
                         <div className="modal-header">
-                            <h5 className="modal-title text-white" id="exampleModalLabel">Select A Gun</h5>
+                            <h5 className="modal-title text-white" id="weaponModal">Select A Gun</h5>
                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                 <span className="text-white" aria-hidden="true">&times;</span>
                             </button>
